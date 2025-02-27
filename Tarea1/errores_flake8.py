@@ -1,4 +1,6 @@
 def hola(x):
-    string="Hola," + x  # Faltan espacios alredore del operador
-    return string  # Faltan dos líneas en blanco luego de terminar la función
-print(hola('Pedro'))# Faltan dos espacios antes del comentario sobre misa línea
+    string = "Hola," + x  # Hay espacios alredore del operador
+    return string  # Hay dos líneas en blanco luego de terminar la función
+
+
+print(hola('Pedro'))  # Hay dos espacios antes del comentario sobre misa línea
